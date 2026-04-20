@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSK Auth</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="auth-container">
+
+        <!-- LOGIN PANEL -->
+        <div class="panel login-panel active">
+            <div class="image-side">
+                <img src="assests/login.png" alt="Login image">
+            </div>
+
+            <div class="form-side">
+                <div class="form-box">
+                    <h1>Login</h1>
+
+                    <form>
+                        <label>User name</label>
+                        <input type="text" placeholder="Enter your user name">
+
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter your  password">
+
+                        <div class="remember-row">
+                            <label class="remember-label">
+                                Remember me
+                                <input type="checkbox">
+                            </label>
+                        </div>
+
+                        <button type="submit" class="main-btn">Login</button>
+
+                        <a href="#" class="text-link forgot-link">Forgot password</a>
+
+                        <p class="bottom-link">
+                            <a href="#" id="register">Sign in</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIGNUP PANEL -->
+        <div class="panel signup-panel">
+            <div class="form-side">
+                <div class="form-box">
+                    <h1>Sign in</h1>
+
+                    <form>
+                        <label>First name</label>
+                        <input type="text" placeholder="Enter your fist name">
+
+                        <label>Last name</label>
+                        <input type="text" placeholder="Enter your last name">
+
+                        <label>Email</label>
+                        <input type="email" placeholder="Enter your Email address">
+
+                        <label>Password</label>
+                        <input type="password" placeholder="Make your password">
+
+                        <label>Reenter the password</label>
+                        <input type="password" placeholder="Enter password again">
+
+                        <button type="submit" class="main-btn">Sign in</button>
+
+                        <p class="bottom-link">
+                            <a href="#" id="login">Log in</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="image-side">
+                <img src="assests/login.png" alt="Signup image">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
